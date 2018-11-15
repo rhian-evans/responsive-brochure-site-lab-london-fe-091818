@@ -1,0 +1,148 @@
+div.wrap {
+    width:100%;
+    margin:0 auto;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1484544808355-8ec84e534d75?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fc1407c2a550b0ebf3def8b81fa7b4a2&auto=format&fit=crop&w=766&q=80);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0px;
+    margin:0px;
+}
+
+body {
+    background: rgb(436, 338, 333);
+}
+main {
+    font-family: arial;
+}
+h1 {
+    padding-bottom: 10px;
+    font-size: 8em;
+    font-family: 'Lora', serif;
+    color: rgb(6, 6, 6);
+    margin: 0px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    padding: 0, 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:20px;
+}
+
+footer {
+    background: rgb(486, 318, 393);
+    flex-direction:left;
+}
+
+#Brunch h2 {
+  background-image: url("https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0a9cacdd6a4e7e408b8ba89d3d6e91d3&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80");
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 180px;
+    font-size: 6em;
+    font-family: 'Lora', serif;
+    color: rgb(6, 6, 6);
+    margin: 0px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    text-decoration: none;
+    flex-direction:row;
+}
+
+#Brunch li {
+  display: inline-block;
+  font-size:2em;
+  font-family: 'Lora', serif;
+  color: rgb(6, 6, 6);
+}
+
+#Drinks h2 {
+  background-image: url("https://images.unsplash.com/photo-1509669803555-fd5edd8d5a41?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=453ba52ad7b512705656a61f78bd11ad&auto=format&fit=crop&w=750&q=80");
+  display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 180px;
+    font-size: 6em;
+    font-family: 'Lora', serif;
+    color: rgb(6, 6, 6);
+    margin: 0px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    text-decoration: none;
+    flex-direction: row;
+}
+
+#Drinks li {
+  display: inline-block;
+  font-size:2em;
+  font-family: 'Lora', serif;
+  color: rgb(6, 6, 6);
+}
+
+#Dinner h2 {
+  background-image: url("https://images.unsplash.com/photo-1530114722439-f5cbd4dad762?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e4f4a6fee4adc30b60515fb522061cd8&auto=format&fit=crop&w=334&q=80");
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:180px 80px 10px 80px;
+    font-size: 6em;
+    font-family: 'Lora', serif;
+    color: rgb(6, 6, 6);
+    margin: 0px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    text-decoration: none;
+    flex-direction:row;
+}
+
+#Dinner li {
+  display: inline-block;
+    font-size:2em;
+  font-family: 'Lora', serif;
+  color: rgb(6, 6, 6);
+}
+
+.flex.container {
+  display:inline-block;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  background-color: #FBFFF4;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+ 
+.item {
+  height: 100px;
+  width: 33.33%;
+  margin: 5px 10px;
+   flex-direction:column;
+}
+
+.column {
+  float: left;
+    width: 33.333%;
+}
+
+@media (max-width: 1200px) { 
+  nav a {
+display: inline-block; 
+flex-wrap:wrap;
+}
